@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Clipboard.Ext</title>
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body>
+    <div class="container">
+      <div id="notification" class="notification hidden"></div>
+      <h1>Clipboard.Ext</h1>
+
+      <div class="input-group">
+        <input type="text" id="titleInput" placeholder="Enter title" />
+        <textarea id="valueInput" placeholder="Enter value"></textarea>
+        <button id="saveBtn">Save</button>
+      </div>
+
+      <div class="saved-items">
+        <h2>Saved Items</h2>
+        <div id="savedItemsList"></div>
+      </div>
+    </div>
+
+    <script src="popup.js"></script>
+  </body>
+</html>

@@ -1,0 +1,63 @@
+body {
+  width: 900px;
+  padding: 20px;
+  font-family: Arial, sans-serif;
+}
+
+.container {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+
+.input-group {
+  display: flex;
+  flex-direction: column;
+  gap: 12px;
+}
+
+input,
+textarea {
+  padding: 10px;
+  font-size: 14px;
+}
+
+textarea {
+  height: 100px;
+  min-height: 100px;
+}
+
+.saved-items {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(400px, 1fr));
+  gap: 15px;
+}
+
+.saved-item {
+  padding: 15px;
+  margin-bottom: 0;
+}
+
+button {
+  padding: 10px 15px;
+  font-size: 14px;
+}
+
+.text-btn {
+  padding: 8px 12px;
+  font-size: 14px;
+}
+
+.notification {
+  padding: 15px;
+  font-size: 14px;
+}
+
+.confirm-content {
+  max-width: 500px;
+  padding: 25px;
+}
+
+.confirm-btn {
+  padding: 8px 20px;
+}

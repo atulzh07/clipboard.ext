@@ -1,0 +1,10 @@
+{
+  "manifest_version": 3,
+  "name": "Clipboard.Ext",
+  "version": "1.0",
+  "description": "Store and copy values associated with titles",
+  "action": {
+    "default_popup": "popup.html"
+  },
+  "permissions": ["storage", "clipboardWrite"]
+}
